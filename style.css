@@ -1,0 +1,275 @@
+header {
+  background-color: #eee7e7;
+  color: #000000;
+  padding-left: 50px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+nav {
+  padding-right: 100px;
+}
+
+nav ul a button {
+  border: none;
+  width: 130px;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 16px;
+  border-radius: 10px;
+  background-color: #eee7e7;
+}
+
+nav ul button {
+  width: 100px;
+  height: 30px;
+  font-size: 16px;
+  border-color: #c99999;
+  border-radius: 10px;
+  background-color: #eee7e7;
+}
+
+ul {
+  display: flex;
+}
+
+button:hover {
+  background-color: #c99999;
+  transition: 0.4s;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #c72323;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e2d5d5;
+}
+
+.home {
+  background: url(./image/img2.jpg) no-repeat;
+  height: 700px;
+  width: 1205px;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home h2 {
+  color: #ffffff;
+}
+
+.home h3 {
+  color: #ffffff;
+  margin-top: 4px;
+}
+
+.containerbook {
+  text-align: center;
+  display: inline-block;
+  margin-left: 47px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.582);
+}
+
+.containerbook img {
+  width: 170px;
+  height: 280px;
+}
+
+.centertabel {
+  margin: 0 auto;
+  border: 0px solid black;
+}
+
+/* .containerform {
+  width: 290px;
+  height: 275px;
+  margin: 150px auto;
+  padding: 20px;
+  border-radius: 15px;
+  color: rgb(255, 255, 255);
+  background-color: #a34242d0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+} */
+
+td a {
+  color: white;
+  font-size: small;
+}
+
+td a:hover {
+  color: #8d8b8b;
+}
+
+.halamanbuku {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.judulhalaman {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+/* .btnlogin {
+  background-color: #dfc7c7;
+  width: 180px;
+  height: 25px;
+  border-radius: 0;
+} */
+
+.btn {
+  background-color: #dfc7c7;
+  width: 180px;
+  height: 25px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.footer {
+  padding: 50px;
+  margin-top: 40px;
+  width: 1266px;
+  background-color: #7c66667c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 9px 30px;
+}
+
+th {
+  border: 0px solid #000000;
+  padding: 6px;
+  text-align: left;
+}
+
+td {
+  border: 0px solid #000000;
+  font-size: small;
+  padding: 6px;
+  text-align: left;
+}
+
+/* css page rekomendasi dan popular */
+.pagelihatlainnya {
+  display: flex;
+  margin-bottom: 60px;
+  background-color: #b32c2c;
+}
+
+.pagelihatlainnya h3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.btn-back {
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 555px;
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+}
+
+/* CSS untuk popup deskripsi buku*/
+.notif {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.popup-content p {
+  text-align: left;
+}
+
+.popup-content button {
+  width: 550px;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* pop up login */
+/* .notiflogin {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.popup-login {
+  background-color: #ffffff00;
+  margin: 10% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.close-login {
+  color: white;
+  padding-left: 270px;
+  font-size: 20px;
+  cursor: pointer;
+} */
